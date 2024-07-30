@@ -721,7 +721,6 @@ local library = {
             ["Tab Background"] = fromRGB(25, 25, 25),
             ["Tab Border"] = fromRGB(45, 45, 45),
             ["Section Background"] = fromRGB(30, 30, 30),
-            ["Section Border"] = fromRGB(45, 45, 45),
             ["Object Background"] = fromRGB(25, 25, 25),
             ["Object Border"] = fromRGB(45, 45, 45),
             ["Dropdown Option Background"] = fromRGB(19, 19, 19)
