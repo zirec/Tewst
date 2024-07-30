@@ -710,23 +710,6 @@ local library = {
     watermark_y = "top",
     font = worldtoscreen ~= nil and 1 or 2,
     font_size = 13,
-    themes = {
-        Default = {
-            ["Accent"] = fromRGB(113, 93, 133),
-            ["Window Background"] = fromRGB(30, 30, 30),
-            ["Window Border"] = fromRGB(65, 65, 65),
-            ["Black Border"] = fromRGB(10, 10, 10),
-            ["Text"] = fromRGB(210, 210, 210),
-            ["Disabled Text"] = fromRGB(110, 110, 110),
-            ["Tab Background"] = fromRGB(25, 25, 25),
-            ["Tab Border"] = fromRGB(45, 45, 45),
-            ["Section Background"] = fromRGB(30, 30, 30),
-            ["Object Background"] = fromRGB(25, 25, 25),
-            ["Object Border"] = fromRGB(45, 45, 45),
-            ["Dropdown Option Background"] = fromRGB(19, 19, 19)
-        }
-    }
-}
 
 library.theme = clone(library.themes["Default"]);
 library.paste_textbox.Position = newUDim2(-200, 0, 0, 0)
